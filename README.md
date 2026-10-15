@@ -26,8 +26,7 @@ OceanGuardAI is a software prototype designed to detect marine debris in images,
 ```text
 OceanGuardAI/
 ├── ai/
-│   ├── detect_debris.py
-│   └── best.onnx
+│   └── detect_debris.py
 ├── data/
 │   ├── mapping.py
 │   └── gps_reader.py
