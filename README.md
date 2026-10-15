@@ -70,3 +70,22 @@ Use your own test image paths if the sample images are not included.
 ## Project Status
 
 This repository contains the current development work. Features described as in progress must be verified before the final demonstration.
+
+## Current Implementation Status
+
+OceanGuard AI is a prototype for AI-assisted marine debris detection and pollution mapping.
+
+### Components
+- **AI Detection:** Debris detection pipeline using an ONNX model.
+- **GPS Extraction:** Reads GPS coordinates from image EXIF metadata when available.
+- **Pollution Mapping:** Displays geolocated observations on an interactive map.
+- **Integration:** Dashboard, database storage, and end-to-end integration are in progress.
+
+### Limitations
+- Images without embedded GPS metadata require a separate location source or manual coordinates.
+- Sample map points and demonstration charts must not be interpreted as verified marine pollution measurements.
+- Detection performance depends on the model and input image quality.
+
+### Future Work
+- Connect AI detections, GPS extraction, database storage, and map visualization into one workflow.
+- Validate the system using appropriately labelled marine debris images and verified locations.
