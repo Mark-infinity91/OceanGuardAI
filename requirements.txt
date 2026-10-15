@@ -1,0 +1,6 @@
+ultralytics
+opencv-python
+onnxruntime
+torch
+Pillow
+folium
